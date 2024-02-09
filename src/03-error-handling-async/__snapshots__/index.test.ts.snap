@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`throwError should throw error with default message if message is not provided 1`] = `"Oops!"`;
+
+exports[`throwError should throw error with default message if message is not provided Check if default Error message matches last automatically saved one 1`] = `"Oops!"`;
