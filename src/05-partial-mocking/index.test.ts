@@ -19,7 +19,7 @@ describe('partial mocking', () => {
   });
 
   beforeEach(() => {
-    // Will be reset after each test case due to "restoreAll: true" in jest.config.js
+    // Will reset after each test case due to "restoreAll: true" in jest.config.js
     jest.spyOn(console, 'log').getMockImplementation();
   });
 

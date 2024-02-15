@@ -17,7 +17,7 @@ describe('doStuffByTimeout', () => {
   });
 
   beforeEach(() => {
-    // Will be reset after each test case due to "restoreAll: true" in jest.config.js
+    // Will reset after each test case due to "restoreAll: true" in jest.config.js
     jest.spyOn(global, 'setTimeout');
   });
 
@@ -48,7 +48,7 @@ describe('doStuffByInterval', () => {
   });
 
   beforeEach(() => {
-    // Will be resetted afterEach due to "restoreAll: true" in jest.config.js
+    // Will reset afterEach due to "restoreAll: true" in jest.config.js
     jest.spyOn(global, 'setInterval');
   });
 
@@ -91,7 +91,7 @@ describe('readFileAsynchronously', () => {
   const fileContent = 'content';
 
   beforeEach(() => {
-    // Will be resetted afterEach due to "restoreAll: true" in jest.config.js
+    // Will reset afterEach due to "restoreAll: true" in jest.config.js
     mockedFs.readFile.mockResolvedValue(fileContent);
   });
 
